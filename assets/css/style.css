@@ -5,6 +5,7 @@
     --color-heading: #656565;
     --color-base: hsl(348, 49%, 78%);
     --color-base2: #ececea;
+    --note-card: #dfd7d7;
     --color-brand: #a27e7e;
     --color-brand2: #a27e7e;
     --sidbar-width: 240px;
@@ -41,7 +42,7 @@ img {
 }
 
 .bg-base {
-    background-color: var(--color-base);
+    background-color: var(--note-card);
 }
 
 .full-height {
@@ -182,11 +183,6 @@ img {
 
 #contact input.form-control {
     height: 44px;
-}
-
-/* SOCIAL ICONS */
-.social-icons {
-
 }
 
 .social-icons a {
